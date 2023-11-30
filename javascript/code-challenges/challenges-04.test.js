@@ -41,6 +41,14 @@ const addPeople = (arr) => {
   return newPeople;
 };
 
+const addStuff = (stuff) => {
+  const newStuff = {
+    ...stuff,
+    cars: [...stuff.cars, 'Kia']
+  };
+  return newStuff;
+};
+
 
 
 
@@ -88,6 +96,16 @@ Ensure that the original people array and stuff objects are unchanged
 
 const newState = (arr) => {
   // Solution code here...
+  const state = {
+    people: [...people],
+    stuff: {
+      ...stuff,
+      cars: [...stuff.cars, 'Ford'],
+      toothbrush: 'brand new',
+      toys: stuff.toys + 1
+    }
+  };
+  return state;
 };
 
 
