@@ -25,8 +25,17 @@ Write a function named addValues that, given an array of numbers as input, uses 
 
 const addValues = (arr) => {
   // Solution code here...
-  return arr.reduce((accumulator, value) => accumulator + value, 0);
+  return arr.reduce((accumulator, value, index) => accumulator + value, 0);
 };
+
+// callback: A function that is called once for each element in the array. It takes four arguments:
+
+// accumulator: The accumulator accumulates the callback's return values. It is the accumulated result of the previous iterations.
+// currentValue: The current element being processed in the array.
+// currentIndex (optional): The index of the current element being processed.
+// array (optional): The array on which reduce was called.
+
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
@@ -38,10 +47,16 @@ Write a function named addPurchases that, given an array of objects as input, us
   purchasePrice: 399
 }
 
+value.purchasePrice is simply retrieving the value of the purchasePrice property from each object in the array, and these values are being summed up by the reduce method to calculate the total purchase amount.
+
 ------------------------------------------------------------------------------------------------ */
 
+//used chatgpt to figure out dot notation is needed 
 const addPurchases = (arr) => {
   // Solution code here...
+
+  return arr.reduce((accumulator, value, index) => accumulator + value.purchasePrice, 0);
+
 };
 
 /* ------------------------------------------------------------------------------------------------
