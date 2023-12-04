@@ -51,11 +51,11 @@ value.purchasePrice is simply retrieving the value of the purchasePrice property
 
 ------------------------------------------------------------------------------------------------ */
 
-//used chatgpt to figure out dot notation is needed 
+//used chatgpt to figure out dot notation is needed
 const addPurchases = (arr) => {
   // Solution code here...
 
-  return arr.reduce((accumulator, value, index) => accumulator + value.purchasePrice, 0);
+  return arr.reduce((accumulator, value) => accumulator + value.purchasePrice, 0);
 
 };
 
@@ -69,6 +69,8 @@ Note: You may not use the array's built-in length property.
 
 const countNumberOfElements = (arr) => {
   // Solution code here...
+  return arr.reduce((accumulator) => accumulator + 1, 0);
+
 };
 
 /* ------------------------------------------------------------------------------------------------
