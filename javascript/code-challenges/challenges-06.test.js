@@ -131,7 +131,11 @@ let starWarsData = [{
 
 const returnNames = (arr) => {
   // Solution code here...
-};
+  return arr.reduce((names, character) => [...names, character.name], []);
+  };
+
+
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
