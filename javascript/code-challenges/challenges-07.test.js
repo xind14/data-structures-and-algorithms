@@ -23,10 +23,10 @@ function lower(str) {
 
 const updateAnimal = (arr, callback) => {
   // Solution code here...
-  let updatedAnimals = arr.reduce((accumulator, animal) => {
+  let updatedAnimals = arr.reduce((strings, animal) => {
     let updatedAnimal = callback(animal);
-    accumulator.push(updatedAnimal);
-    return accumulator;
+    strings.push(updatedAnimal);
+    return strings;
   }, []);
 
 return updatedAnimals;
@@ -58,8 +58,8 @@ HINT: Beware... JS default is "Lexical" ordering.
 
 const sortNumbers = (arr) => {
   // Solution code here...
-  let sorted = (a,b)=> a-b;
-  arr.sort(sorted);
+  let sortedNum = (a,b)=> a-b;
+  arr.sort(sortedNum);
   return arr;
 
 };
@@ -111,6 +111,10 @@ Here is an example of the input:
 
 const sortByPrice = (arr) => {
   // Solution code here...
+  let sortedPrice = (a,b)=> a.price-b.price;
+  arr.sort(sortedPrice);
+  return arr;
+
 };
 
 /* ------------------------------------------------------------------------------------------------
