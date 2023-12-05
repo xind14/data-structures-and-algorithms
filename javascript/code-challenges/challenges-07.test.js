@@ -58,6 +58,10 @@ HINT: Beware... JS default is "Lexical" ordering.
 
 const sortNumbers = (arr) => {
   // Solution code here...
+  let sorted = (a,b)=> a-b;
+  arr.sort(sorted);
+  return arr;
+
 };
 
 /* ------------------------------------------------------------------------------------------------
