@@ -144,9 +144,13 @@ Write a function named reversedString that takes in a string and returns a strin
 
 Note: You must use reduce for this challenge. You may not use the built-in .reverse() string method.
 ------------------------------------------------------------------------------------------------ */
+// used chatgpt to find .split usage
 
 const reversedString = (str) => {
   // Solution code here...
+  return str.split('').reduce((acc, char) => {
+    return char + acc;
+  }, '');
 };
 
 /* ------------------------------------------------------------------------------------------------
