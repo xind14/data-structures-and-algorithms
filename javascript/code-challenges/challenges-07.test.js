@@ -29,8 +29,7 @@ const updateAnimal = (arr, callback) => {
     return accumulator;
   }, []);
 
-  // Return the new array containing the updated animal strings
-  return updatedAnimals;
+return updatedAnimals;
 };
 
 
@@ -44,7 +43,10 @@ For example: 'Cat' would come before 'apple'
 
 const sortNames = (arr) => {
   // Solution code here...
-};
+  return arr.sort();
+}
+
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
