@@ -139,11 +139,20 @@ const gruffaloCrumble = {
 };
 
 
+//used chat gpt did not know what to use .indexof for 
 const listFoods = (recipe) => {
   let result = [];
   // Solution code here...
+  recipe.ingredients.forEach((ingredient) => {
+    let withoutAmount = ingredient.slice(ingredient.indexOf(' ') + 1);
+    let withoutUnit = withoutAmount.slice(withoutAmount.indexOf(' ') + 1);
+    result.push(withoutUnit);
+  });
+
   return result;
 };
+
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
@@ -156,6 +165,8 @@ You may also use other string or array methods.
 const splitFoods = (recipe) => {
   let result = [];
   // Solution code here...
+
+
   return result;
 };
 
