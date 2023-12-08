@@ -170,8 +170,10 @@ const errands = [
   },
 ];
 
+//chatgtp help, this is way easier
 const howManyTreats = (arr) => {
   // Solution code here...
+  return arr[2].items[1].quantity;
 };
 
 /* ------------------------------------------------------------------------------------------------
