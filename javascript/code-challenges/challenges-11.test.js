@@ -49,7 +49,6 @@ For example, ['this is great :)', 'wow', 'whyyyyyy :(', ':)))))'] returns ['this
 
 const findHappiness = (arr) => {
   // Solution code here...
-
   return arr.filter(str => str.includes(':)'));
 };
 
@@ -95,6 +94,11 @@ For example, 'abcdefg' returns 'bdf'
 
 const onlyOddChars = (str) => {
   // Solution code here...
+  let oddChar = '';
+  for (let i = 1; i < str.length; i += 2) {
+    oddChar += str.charAt(i);
+  }
+  return oddChar;
 };
 
 /* ------------------------------------------------------------------------------------------------
