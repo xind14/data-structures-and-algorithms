@@ -64,6 +64,12 @@ For example, [[1, 2, 3, 4, 5], [6, 7, 2, 4, 5, 7], [9, 2, 3, 6,]] returns 66.
 
 const totalSum = (input) => {
   // Solution code here...
+  return input.reduce((sum, array) => {
+    let arraySum = array.reduce((total, num) => {
+      return total + num;
+    }, 0);
+    return sum + arraySum;
+  }, 0);
 };
 
 /* ------------------------------------------------------------------------------------------------
