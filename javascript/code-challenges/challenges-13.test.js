@@ -98,7 +98,7 @@ For example:
 const isNum = (input) => {
   // Solution code here...
   let regex = /[0-9]/;
-  return regex.text(input);
+  return regex.test(input);
 };
 
 /* ------------------------------------------------------------------------------------------------
