@@ -1,5 +1,10 @@
 # Data Structures and Algorithms
 
+
+## Table of Contents
+
+1. [Array Reverse](docs/attempt_challenges/array-reverse/README.md)
+
 ## Language: `Python`
 
 ### Folder and Challenge Setup
