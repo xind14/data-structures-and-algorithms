@@ -4,6 +4,7 @@
 ## Table of Contents
 
 1. [Array Reverse](docs/attempt_challenges/array-reverse/README.md)
+2. [Array Insert Shift](docs/attempt_challenges/array-insert-shift/README.md)
 
 ## Language: `Python`
 
