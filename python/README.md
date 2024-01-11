@@ -3,8 +3,9 @@
 
 ## Table of Contents
 
-1. [Array Reverse](docs/attempt_challenges/array-reverse/README.md)
-2. [Array Insert Shift](docs/attempt_challenges/array-insert-shift/README.md)
+1. [Array Reverse](code_challenges/attempt_challenges/array-reverse/README.md)
+2. [Array Insert Shift](code_challenges/attempt_challenges/array-insert-shift/README.md)
+3. [Array Binary Search](code_challenges/attempt_challenges/array-binary-search/README.md)
 
 ## Language: `Python`
 
