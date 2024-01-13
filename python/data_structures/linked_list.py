@@ -7,7 +7,16 @@ class Node:
 
 class LinkedList:
     """
-    Put docstring here
+    A class representing a singly linked list.
+
+    Attributes:
+    - head: Points to the first node in the linked list.
+
+    Methods:
+    - __init__(): Initializes an empty linked list with a null head.
+    - insert(value): Inserts a new node with the given value at the head of the list.
+    - includes(value): Checks if a node with the specified value exists in the linked list.
+    - __str__(): Returns a string representation of the linked list in the format "{ value1 } -> { value2 } -> ... -> NULL".
     """
 
     def __init__(self):
