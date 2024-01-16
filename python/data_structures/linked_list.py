@@ -70,3 +70,22 @@ class LinkedList:
 
 
 
+    def insert_before(self, value, new_value):
+        if self.head is None:
+            raise TargetError("Empty list, unable to insert before")
+
+        if self.head is not None and self.head.value == value:
+            self.insert(new_value)
+            return
+
+        current = self.head
+        while current.next is not None and current.next.value != value:
+            current = current.next
+
+        if current.next is None:
+            raise TargetError(f"Value {value} is not in linked list")
+
+        new_node = Node(new_value)
+        new_node.next = current.next
+        current.next= new_node
+
