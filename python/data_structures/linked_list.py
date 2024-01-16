@@ -89,3 +89,23 @@ class LinkedList:
         new_node.next = current.next
         current.next= new_node
 
+
+    def insert_after(self, value, new_value):
+        if self.head is None:
+            raise TargetError("Empty list unable to insert after")
+
+        current = self.head
+        while current is not None and current.value != value:
+            current = current.next
+
+        if current is None:
+            raise TargetError(f"Value {value} is not in linked list")
+
+        new_node = Node(new_value)
+        new_node.next = current.next
+        current.next = new_node
+
+
+class TargetError (Exception):
+    def __init__(self, message):
+        self.message = message
