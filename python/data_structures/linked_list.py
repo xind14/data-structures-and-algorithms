@@ -23,6 +23,7 @@ class LinkedList:
         self.head = None
 
     def insert (self, value):
+        # adds new node to beginning of list
         new_node = Node(value)
         new_node.next = self.head
         self.head = new_node
@@ -44,6 +45,28 @@ class LinkedList:
         result += "NULL"
         return result
 
+# linked_list = LinkedList()
 
-class TargetError:
-    pass
+# linked_list.insert(3)
+# linked_list.insert(7)
+# linked_list.insert(10)
+
+# print(linked_list)
+
+
+
+
+    def append(self, value):
+            # adds new node to end of list
+            new_node = Node(value)
+            if not self.head:
+                self.head = new_node
+            else:
+                current = self.head
+                while current.next:
+                    current = current.next
+
+                current.next = new_node
+
+
+
