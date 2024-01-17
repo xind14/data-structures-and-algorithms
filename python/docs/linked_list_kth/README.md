@@ -2,16 +2,10 @@
 
 Write the following methods for the Linked List class:
 
-- append
-  - arguments: new value
-  - adds a new node with the given value to the end of the list
-- insert before
-  - arguments: value, new value
-  - adds a new node with the given new value immediately before the first node that has the value specified
-- insert after
-
-  - arguments: value, new value
-  - adds a new node with the given new value immediately after the first node that has the value specified
+- kth from end
+      - argument: a number, k, as a parameter.
+      - Return the node’s value that is k places from the tail of the linked list.
+      - You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
 
   ## Whiteboard Process
 
@@ -22,11 +16,11 @@ Write the following methods for the Linked List class:
   ## Approach & Efficiency
 
   1. Write out problem statement
-  2. create append function
-  3. create insert before function
-  4. create insert after function
-  5. used images as a guide and talked out algorithm
-  6. The Big O time is O(N) because only iterating each value once and space is O(1) because it gives back a single new node
+  2. drew it out first because I didn't get it
+  3. create length count
+  4. loop through it to move the current to k
+  5. return value
+  6. The Big O time is O(N) because only iterating each value once and space is O(1) because it gives back a single value
 
   ## Solution
 
