@@ -20,6 +20,8 @@ class LinkedList:
      - append(value): Adds a new node with the given value to the end of the list.
     - insert_before(value, new_value): Inserts a new node with the specified new_value before the node with the given value.
     - insert_after(value, new_value): Inserts a new node with the specified new_value after the node with the given value.
+    - kth_from_end(k): Returns the node's value that is k places from the tail of the linked list.
+
     """
 
     def __init__(self):
@@ -102,6 +104,29 @@ class LinkedList:
         new_node = Node(new_value)
         new_node.next = current.next
         current.next = new_node
+
+    def kth_from_end(self, k):
+        if self.head is None:
+            raise TargetError("Empty list unable to find kth from end")
+        if k < 0:
+            raise TargetError("k can't be negative")
+        length =0
+        current=self.head
+        while current is not None:
+            length+=1
+            current=current.next
+        if k >= length:
+            raise TargetError("k is great than or equal to length of list")
+
+        current = self.head
+        for _ in range(length-k-1):
+            current=current.next
+        return current.value
+
+
+
+
+
 
 
 class TargetError (Exception):
