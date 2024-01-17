@@ -64,6 +64,7 @@ def test_kth_from_end_size_one():
     assert actual == expected
 
 # @pytest.mark.skip("TODO")
+# added equal length test
 def test_kth_from_end_length_equal():
     linked_list = LinkedList()
     values = ["apples", "bananas", "cucumbers"]
