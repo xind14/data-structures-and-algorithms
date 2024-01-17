@@ -21,11 +21,11 @@ Write the following methods for the Linked List class:
   ## Approach & Efficiency
 
   1. Write out problem statement
-  2. Then wrote a function that would that array as argument
-  3. Initialize two variables start and end
-  4. While loop that runs as long as start is less than end
-  5. Return array
-  6. The Big O time is O(N) and space is O(1)
+  2. create append function
+  3. create insert before function
+  4. create insert after function
+  5. used images as a guide and talked out algorithm
+  6. The Big O time is O(N) because only iterating each value once and space is O(1) because it gives back a single new node
 
   ## Solution
 
