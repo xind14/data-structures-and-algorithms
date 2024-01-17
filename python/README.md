@@ -7,7 +7,9 @@
 1. Code Challenge 2: [Array Insert Shift](docs/array-insert-shift/README.md)
 1. Code Challenge 3: [Array Binary Search](docs/array-binary-search/README.md)
 1. Code Challenge 4: [Matrix](docs/matrix-optional/README.md)
-1. Code Challenge 4: [Linked LIst](docs/linked-list/README.md)
+1. Code Challenge 5: [Linked List](docs/linked-list/README.md)
+1. Code Challenge 6: [Linked List insertions](docs/linked_list_insertions/README.md)
+
 
 
 
