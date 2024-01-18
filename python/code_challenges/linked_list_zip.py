@@ -13,7 +13,5 @@ def zip_lists(a, b):
         if current2:
             zipped_list.append(current2.value)
             current2=current2.next
-    return zipped_list 
-
-
+    return zipped_list
 

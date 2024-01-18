@@ -18,10 +18,11 @@ Write the following methods for the Linked List class:
 
   1. Write out problem statement
   2. drew it out first because I didn't get it
-  3. create length count
-  4. loop through it to move the current to k
-  5. return value
-  6. The Big O time is O(N) because only iterating each value once and space is O(1) because it gives back a single value
+  3. looked through linked list code from before
+  4. loop list one then two, repeat in that order
+  5. append into new list to create zipped
+  6. The Big O Time: O(max(n, m)) because loop can continue based on length of a longer linked list. Space: O(n+m) because its linear with respect to the total number of nodes in both input lists.
+
 
 ## Solution
 
