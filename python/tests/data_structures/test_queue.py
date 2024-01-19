@@ -1,6 +1,6 @@
 import pytest
 from data_structures.queue import Queue
-# from data_structures.invalid_operation_error import InvalidOperationError
+from data_structures.invalid_operation_error import InvalidOperationError
 
 
 def test_exists():
@@ -16,7 +16,7 @@ def test_enqueue():
     assert actual == expected
 
 
-@pytest.mark.skip("TODO")
+# @pytest.mark.skip("TODO")
 def test_dequeue():
     q = Queue()
     q.enqueue("apple")
