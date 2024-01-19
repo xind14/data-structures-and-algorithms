@@ -10,12 +10,12 @@ class Stack:
 
     def __init__(self):
         self.top=None
-    # add to front of stack 
+    # add to front of stack
     def push(self,value):
         new_top=Node(value)
         new_top.next=self.top
         self.top=new_top
-
+    # remove from front
     def pop(self):
         if self.top is None:
             raise InvalidOperationError("Method not allowed on empty collection")

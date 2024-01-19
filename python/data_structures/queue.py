@@ -19,7 +19,7 @@ class Queue:
         else:
             self.rear.next=new_node
             self.rear=new_node
-
+    # remove something from front
     def dequeue(self):
         if self.front is None:
             raise InvalidOperationError("Method not allowed on empty collection")
@@ -32,5 +32,8 @@ class Queue:
         if self.front is None:
             raise InvalidOperationError("Method not allowed on empty collection")
         return self.front.value
-#     def is_empty():
+
+    def is_empty(self):
+        return self.front is None
+
 
