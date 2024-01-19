@@ -48,21 +48,16 @@
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
-![Whiteboard Image](whiteboard3.png)
+None
 
 ## Approach & Efficiency
 
-1. Write out problem statement
-2. Looked at past challenge that used middle split
-3. wrote test cases with given and output
-4. wrote algorithm that follows basic test case
-5. drew image that follows that algorithm
-6. wrote solution on replit
-7. The Big O time is O(log n) and space is O(1)
+1. Start off writing start def functions for all four for each stack and queue
+2. looked at linked list for help
+3. change code to fit stack and queue properties
 
 
 ## Solution
 
-![Solution Image](solution3.png)
-
-[Link to code](https://replit.com/@XinDeng/code-challenges-401)
+None
+No Link to code
