@@ -10,7 +10,7 @@ class Stack:
 
     def __init__(self):
         self.top=None
-
+    # add to front of stack 
     def push(self,value):
         new_top=Node(value)
         new_top.next=self.top
@@ -32,18 +32,5 @@ class Stack:
 
     def is_empty(self):
         return self.top is None
-
-# class Queue:
-#     """
-#     Put docstring here
-#     """
-
-#     def __init__(self):
-#         self.top=None
-
-#     def enqueue():
-#     def dequeue():
-#     def peek():
-#     def is_empty():
 
 
