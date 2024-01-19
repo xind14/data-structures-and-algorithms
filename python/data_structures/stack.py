@@ -23,13 +23,15 @@ class Stack:
         self.top = self.top.next
         return value
 
+
+    def peek(self):
+         if self.top is None:
+            raise InvalidOperationError("Method not allowed on empty collection")
+         return self.top.value
+
+
     def is_empty(self):
         return self.top is None
-
-
- 
-
-
 
 # class Queue:
 #     """
