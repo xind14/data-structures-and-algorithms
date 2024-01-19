@@ -11,6 +11,7 @@
 1. Code Challenge 6: [Linked List insertions](docs/linked_list_insertions/README.md)
 1. Code Challenge 7: [Linked List Kth](docs/linked_list_kth/README.md)
 1. Code Challenge 8: [Linked List Zip](docs/linked_list_zip/README.md)
+1. Code Challenge 9: [Stack and Queue](docs/stack_and_queue/README.md)
 
 
 
