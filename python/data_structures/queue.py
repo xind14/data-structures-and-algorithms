@@ -28,6 +28,9 @@ class Queue:
         if self.front is None:
             self.rear=None
         return value
-#     def peek():
+    def peek(self):
+        if self.front is None:
+            raise InvalidOperationError("Method not allowed on empty collection")
+        return self.front.value
 #     def is_empty():
 
