@@ -24,12 +24,10 @@
 ## Approach & Efficiency
 
 1. Write out problem statement
-2. Looked at past challenge that used middle split
-3. wrote test cases with given and output
-4. wrote algorithm that follows basic test case
-5. drew image that follows that algorithm
-6. wrote solution on replit
-7. The Big O time is O(log n) and space is O(1)
+2. drew out stack and queue lifo/fifo to understand
+3. talked out what the drawing is doing and write algorithm
+4. write the code
+5. The Big O time and space is O(n) because stack 2 is empty and its moving all elements over from stack 1
 
 
 ## Solution
