@@ -23,3 +23,8 @@ class PseudoQueue:
                 self.stack2.push(self.stack1.pop())
 
         return self.stack2.pop()
+
+
+
+
+
