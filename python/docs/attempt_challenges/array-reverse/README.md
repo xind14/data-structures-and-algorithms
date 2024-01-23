@@ -22,4 +22,4 @@ whit
 
 ![Solution Image](solution1.png)
 
-[Link to code](https://replit.com/@XinDeng/CC1-reverseArray)
+[Link to code](https://replit.com/@XinDeng/code-challenges-401)
