@@ -9,6 +9,7 @@
 1. Code Challenge 4: [Matrix](docs/matrix-optional/README.md)
 1. Code Challenge 5: [Linked List](docs/linked-list/README.md)
 1. Code Challenge 6: [Linked List insertions](docs/linked_list_insertions/README.md)
+1. Code Challenge 7: [Linked List Kth](docs/linked_list_kth/README.md)
 
 
 
