@@ -1,5 +1,5 @@
 
-# Matrix
+# Matrix - Mock Interview: Optional
 
 - Given a matrix, find the sum of each row. write a function to add up the sum of each row in a matrix of arbitrary size, and return an array with the appropriate values.
 
