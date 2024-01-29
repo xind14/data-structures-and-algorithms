@@ -16,6 +16,7 @@
 1. Code Challenge 13: [Stack and Queue Brackets](docs/stack_queue_brackets/README.md)
 1. Code Challenge 14: [Mock Interview: Max Stack](docs/max-stack-mock/README.md)
 1. Code Challenge 15: [Trees: Binary Tree and Binary Search Tree](docs/trees/README.md)
+1. Code Challenge 16: [Trees: Tree Max](docs/tree_max/README.md)
 
 
 ## Language: `Python`
