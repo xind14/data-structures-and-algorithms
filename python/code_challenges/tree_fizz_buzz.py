@@ -7,18 +7,20 @@ def fizz_buzz_tree(tree):
         return None
     
     def determine_fizz_buzz(value):
-        if value % 3 ==0:
-            return "Fizz"
-        elif value % 5 ==0:
-            return "Buzz"
-        elif value % 3 ==0 and value % 5 ==0 :
+        if value % 3 == 0 and value % 5 == 0:
             return "FizzBuzz"
+        elif value % 3 == 0:
+            return "Fizz"
+        elif value % 5 == 0:
+            return "Buzz"
         else:
             return str(value)
     
     def determine_new_tree(node):
-        new_node=Node(determine_fizz_buzz(node.value))
-        for child in tree.root.children:
-            new_child=fizz_buzz_tree(KaryTree(child))
+        new_node = Node(determine_fizz_buzz(node.value))
+        for child in node.children: 
+            new_child = fizz_buzz_tree(KaryTree(child))
             new_node.children.append(new_child.root)
         return KaryTree(new_node)
+
+    return determine_new_tree(tree.root)  
