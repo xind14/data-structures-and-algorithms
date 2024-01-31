@@ -18,6 +18,7 @@
 1. Code Challenge 15: [Trees: Binary Tree and Binary Search Tree](docs/trees/README.md)
 1. Code Challenge 16: [Trees: Tree Max](docs/tree_max/README.md)
 1. Code Challenge 17: [Trees: Tree Breadth First](docs/tree_breadth_first/README.md)
+1. Code Challenge 18: [Trees: K-ary Fizz Buzz](docs/tree_fizz_buzz/README.md)
 
 
 ## Language: `Python`
