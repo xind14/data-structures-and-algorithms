@@ -1,6 +1,5 @@
 # Data Structures and Algorithms
 
-
 ## Table of Contents
 
 1. Code Challenge 1: [Array Reverse](docs/array-reverse/README.md)
@@ -13,10 +12,7 @@
 1. Code Challenge 8: [Linked List Zip](docs/linked_list_zip/README.md)
 1. Code Challenge 9: [Stack and Queue](docs/stack_and_queue/README.md)
 1. Code Challenge 10: [Stack and Queue Pseudo](docs/stack_queue_pseudo/README.md)
-
-
-
-
+1. Code Challenge 10: [Stack and Queue Animal Shelter](docs/stack_queue_animal_shelter/README.md)
 
 ## Language: `Python`
 
@@ -29,6 +25,7 @@ Each type of code challenge has slightly different instructions. Please refer to
 - Create a new folder under the `python` level, with the name of the data structure and complete your implementation there
   - i.e. `linked_list`
 - Implementation (the data structure "class")
+
   - The implementation of the data structure should match package name
     - i.e. `linked_list/linked_list.py`
   - Follow Python [naming conventions](https://www.python.org/dev/peps/pep-0008/#naming-conventions)
@@ -85,7 +82,7 @@ Code challenges should be completed within a folder named `code_challenges` unde
 
 ## Running Tests
 
-If you setup your folders according to the above guidelines, running tests becomes a matter of deciding which tests you want to execute.  Jest does a good job at finding the test files that match what you specify in the test command
+If you setup your folders according to the above guidelines, running tests becomes a matter of deciding which tests you want to execute. Jest does a good job at finding the test files that match what you specify in the test command
 
 From the root of the `data-structures-and-algorithms/python` folder, execute the following commands:
 
