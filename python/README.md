@@ -17,6 +17,7 @@
 1. Code Challenge 14: [Mock Interview: Max Stack](docs/max-stack-mock/README.md)
 1. Code Challenge 15: [Trees: Binary Tree and Binary Search Tree](docs/trees/README.md)
 1. Code Challenge 16: [Trees: Tree Max](docs/tree_max/README.md)
+1. Code Challenge 17: [Trees: Tree Breadth First](docs/tree_breadth_first/README.md)
 
 
 ## Language: `Python`
