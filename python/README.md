@@ -5,7 +5,7 @@
 1. Code Challenge 1: [Array Reverse](docs/array-reverse/README.md)
 1. Code Challenge 2: [Array Insert Shift](docs/array-insert-shift/README.md)
 1. Code Challenge 3: [Array Binary Search](docs/array-binary-search/README.md)
-1. Code Challenge 4: [Matrix](docs/matrix-optional/README.md)
+1. Code Challenge 4: [Matrix](docs/matrix-optional-mock/README.md)
 1. Code Challenge 5: [Linked List](docs/linked-list/README.md)
 1. Code Challenge 6: [Linked List insertions](docs/linked_list_insertions/README.md)
 1. Code Challenge 7: [Linked List Kth](docs/linked_list_kth/README.md)
@@ -14,6 +14,9 @@
 1. Code Challenge 11: [Stack and Queue Pseudo](docs/stack_queue_pseudo/README.md)
 1. Code Challenge 12: [Stack and Queue Animal Shelter](docs/stack_queue_animal_shelter/README.md)
 1. Code Challenge 13: [Stack and Queue Brackets](docs/stack_queue_brackets/README.md)
+1. Code Challenge 14: [Mock Interview: Max Stack](docs/max-stack-mock/README.md)
+1. Code Challenge 15: [Trees: Binary Tree and Binary Search Tree](docs/trees/README.md)
+
 
 ## Language: `Python`
 
