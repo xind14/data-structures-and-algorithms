@@ -1,31 +1,36 @@
-# Tree Max
+# Tree K-ary Fizz Buzz
 
-Write the following method for the Binary Tree class
+Write a function called fizz buzz tree
+    - Arguments: k-ary tree
+    - Return: new k-ary tree
+    - If the value is divisible by 3, replace the value with “Fizz”
+    - If the value is divisible by 5, replace the value with “Buzz”
+    - If the value is divisible by 3 and 5, replace the value with “FizzBuzz”
+    - If the value is not divisible by 3 or 5, simply turn the number into a String.
 
-- find maximum value
 
-  - Arguments: none
-  - Returns: number
-  - Find the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
 
 ## Whiteboard Process
 
   <!-- Embedded whiteboard image -->
 
-![Whiteboard Image](whiteboard16.png)
+![Whiteboard Image](whiteboard18.png)
 
 ## Approach & Efficiency
 
 1. Write out problem statement
 2. drew it out first because I didn't get it
-3. looked at binary tree code for help
-4. create find max function
-5. use in order to return list values and loop through them for comparison
+3. looked at binary tree, kary code for help
+4. create def to determine fizzbuzz conditions of 3,5,none visibility
+5. create new node def that takes new node values and append to tree as children
+6. return new tree 
 
-6. The Big O time is O(n) where n is number of nodes in tree and iterates over all nodes once. Space: O(n) because it stores all nodes using in order traversal
+7. The Big O time is O(n) where n is number of nodes in kary tree and iterates over all nodes once. Space: O(h) because it depends on height of tree
+
+
 
 ## Solution
 
-![Solution Image](solution16.png)
+![Solution Image](solution18.png)
 
 [Link to code](https://replit.com/@XinDeng/code-challenges-401)
