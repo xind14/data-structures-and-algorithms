@@ -11,8 +11,9 @@
 1. Code Challenge 7: [Linked List Kth](docs/linked_list_kth/README.md)
 1. Code Challenge 8: [Linked List Zip](docs/linked_list_zip/README.md)
 1. Code Challenge 9: [Stack and Queue](docs/stack_and_queue/README.md)
-1. Code Challenge 10: [Stack and Queue Pseudo](docs/stack_queue_pseudo/README.md)
-1. Code Challenge 10: [Stack and Queue Animal Shelter](docs/stack_queue_animal_shelter/README.md)
+1. Code Challenge 11: [Stack and Queue Pseudo](docs/stack_queue_pseudo/README.md)
+1. Code Challenge 12: [Stack and Queue Animal Shelter](docs/stack_queue_animal_shelter/README.md)
+1. Code Challenge 13: [Stack and Queue Brackets](docs/stack_queue_brackets/README.md)
 
 ## Language: `Python`
 
