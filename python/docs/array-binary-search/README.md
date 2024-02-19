@@ -22,6 +22,6 @@
 
 ## Solution
 
-![Solution Image](solution3.png)
+[Solution](solution3.py)
 
 [Link to code](https://replit.com/@XinDeng/code-challenges-401)

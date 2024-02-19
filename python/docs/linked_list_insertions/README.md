@@ -29,6 +29,5 @@ Write the following methods for the Linked List class:
 
   ## Solution
 
-  ![Solution Image](solution6.png)
+[Link to code](../../data_structures/linked_list.py)
 
-  [Link to code](https://replit.com/@XinDeng/code-challenges-401)

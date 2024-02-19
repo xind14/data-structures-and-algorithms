@@ -31,6 +31,6 @@ Write a function called fizz buzz tree
 
 ## Solution
 
-![Solution Image](solution18.png)
+[Solution](../../code_challenges/tree_fizz_buzz.py)
 
 [Link to code](https://replit.com/@XinDeng/code-challenges-401)

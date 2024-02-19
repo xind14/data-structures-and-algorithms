@@ -26,6 +26,4 @@ Write the following methods for the Linked List class:
 
 ## Solution
 
-  ![Solution Image](solution8.png)
-
-  [Link to code](https://replit.com/@XinDeng/code-challenges-401)
+[Solution](../../code_challenges/linked_list_zip.py)

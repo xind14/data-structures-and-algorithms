@@ -59,5 +59,6 @@ None
 
 ## Solution
 
-None
-No Link to code
+1. [Stack](../../data_structures/stack.py)
+1. [Queue](../../data_structures/queue.py)
+

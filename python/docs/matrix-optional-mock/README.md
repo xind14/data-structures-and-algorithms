@@ -19,6 +19,6 @@
 
 ## Solution
 
-![Solution Image](solution4.png)
+[Solution](solution4.py)
 
 [Link to code](https://replit.com/@XinDeng/code-challenges-401)

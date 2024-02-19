@@ -34,3 +34,5 @@
 6. The Big O time is O(n) and space is O(n) because it depends on length of input
 
 ## Solution
+
+[Solution](solution14.py)

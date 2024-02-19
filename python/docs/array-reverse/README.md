@@ -21,6 +21,6 @@ Write a function called reverseArray which takes an array as an argument. Withou
 
 ## Solution
 
-![Solution Image](solution1.png)
+[Solution](solution1.py)
 
 [Link to code](https://replit.com/@XinDeng/code-challenges-401)
