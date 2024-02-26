@@ -1,3 +1,5 @@
+from data_structures.queue import Queue
+
 class Graph:
     def __init__(self):
         self.graph = {}
@@ -23,6 +25,26 @@ class Graph:
 
     def get_nodes(self):
         return self.graph.keys()
+
+    def breadth_first(self, start_node):
+        visited = set()
+        result = []
+        queue = Queue()
+
+        queue.enqueue(start_node)
+        visited.add(start_node)
+
+        while not queue.is_empty():
+            current_node = queue.dequeue()
+            result.append(current_node.value)
+
+            for neighbor in self.graph[current_node]:
+                if neighbor.vertex not in visited:
+                    visited.add(neighbor.vertex)
+                    queue.enqueue(neighbor.vertex)
+
+        return result
+
 
 
 class Vertex:
