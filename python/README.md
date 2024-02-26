@@ -25,6 +25,7 @@
 1. Code Challenge 33: [Hashtable Left Join](docs/hashtable_left_join/README.md)
 1. Code Challenge 34: [Hashtable Most Common Word](docs/hashtable_most_common_mock/README.md)
 1. Code Challenge 35: [Graph](docs/graph/README.md)
+1. Code Challenge 65: [Binary Tree Sum](docs/binary-tree-sum/README.md)
 
 
 ## Language: `Python`
