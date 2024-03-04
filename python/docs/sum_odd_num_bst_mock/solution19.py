@@ -10,7 +10,7 @@ def sum_of_odds(root):
     current = root 
 
     if not current:
-        return []
+        return 0
 
     while stack or current:
         while current:
