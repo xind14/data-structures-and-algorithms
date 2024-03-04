@@ -28,6 +28,6 @@ Multi-bracket Validation.
 
 ## Solution
 
-![Solution Image](solution13.png)
+[Solution](../../code_challenges/stack_queue_brackets.py)
 
 [Link to code](https://replit.com/@XinDeng/code-challenges-401)

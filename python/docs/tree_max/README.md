@@ -26,6 +26,6 @@ Write the following method for the Binary Tree class
 
 ## Solution
 
-![Solution Image](solution16.png)
+[Solution](solution16.py)
 
 [Link to code](https://replit.com/@XinDeng/code-challenges-401)

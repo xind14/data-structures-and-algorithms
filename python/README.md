@@ -20,6 +20,7 @@
 1. Code Challenge 17: [Trees: Tree Breadth First](docs/tree_breadth_first/README.md)
 1. Code Challenge 18: [Trees: K-ary Fizz Buzz](docs/tree_fizz_buzz/README.md)
 1. Code Challenge 30: [Hashtable](docs/hashtable/README.md)
+1. Code Challenge 31: [Hashtable Repeated Word](docs/hashtable_repeated_word/README.md)
 
 
 ## Language: `Python`

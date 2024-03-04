@@ -20,6 +20,6 @@ Write a function called insertShiftArray which takes in an array and a value to 
 
 ## Solution
 
-![Solution Image](solution2.png)
+[Solution](solution2.py)
 
 [Link to code](https://replit.com/@XinDeng/code-challenges-401)

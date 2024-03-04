@@ -24,6 +24,6 @@ Write a function called breadth first
 
 ## Solution
 
-![Solution Image](solution17.png)
+[Solution](../../code_challenges/tree_breadth_first.py)
 
 [Link to code](https://replit.com/@XinDeng/code-challenges-401)

@@ -34,6 +34,6 @@ Create a class called AnimalShelter which holds only dogs and cats.
 
 ## Solution
 
-  ![Solution Image](solution12.png)
+[Solution](../../code_challenges/stack_queue_animal_shelter.py)
 
   [Link to code](https://replit.com/@XinDeng/code-challenges-401)

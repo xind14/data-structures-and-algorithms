@@ -34,6 +34,5 @@ None. Not a whiteboard
 
 ## Solution
 
-![Solution Image](solution5.png)
 
 [Link to code](../../data_structures/linked_list.py)

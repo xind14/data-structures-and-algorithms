@@ -32,6 +32,6 @@
 
 ## Solution
 
-![Solution Image](solution11.png)
+[Solution](../../code_challenges/stack_queue_pseudo.py)
 
 [Link to code](https://replit.com/@XinDeng/code-challenges-401)
