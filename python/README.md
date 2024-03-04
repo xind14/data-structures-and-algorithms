@@ -22,7 +22,9 @@
 1. Code Challenge 30: [Hashtable](docs/hashtable/README.md)
 1. Code Challenge 31: [Hashtable Repeated Word](docs/hashtable_repeated_word/README.md)
 1. Code Challenge 32: [Tree Intersection](docs/tree_intersection/README.md)
-1. Code Challenge 32: [Hashtable Left Join](docs/hashtable_left_join/README.md)
+1. Code Challenge 33: [Hashtable Left Join](docs/hashtable_left_join/README.md)
+1. Code Challenge 34: [Hashtable Most Common Word](docs/hashtable_most_common_mock/README.md)
+1. Code Challenge 35: [Graph](docs/graph/README.md)
 
 
 ## Language: `Python`
