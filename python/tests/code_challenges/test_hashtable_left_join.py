@@ -6,7 +6,6 @@ def test_exists():
     assert left_join
 
 
-@pytest.mark.skip("TODO")
 def test_example():
     synonyms = {
         "diligent": "employed",
@@ -24,13 +23,46 @@ def test_example():
     }
 
     expected = [
-        ["fond", "enamored", "averse"],
-        ["wrath", "anger", "delight"],
         ["diligent", "employed", "idle"],
-        ["outfit", "garb", "NONE"],
+        ["fond", "enamored", "averse"],
         ["guide", "usher", "follow"],
+        ["outfit", "garb", "None"],
+        ["wrath", "anger", "delight"],
     ]
+    
+    actual = left_join(synonyms, antonyms)
+    
+    assert sorted(actual) == sorted(expected)
+
+
+def test_empty_hashmaps():
+    synonyms = {}
+    antonyms = {}
+
+    expected = []
 
     actual = left_join(synonyms, antonyms)
 
     assert actual == expected
+
+
+def test_different_keys():
+    synonyms = {
+        "happy": "joyful",
+        "sad": "unhappy",
+        "angry": "irate",
+    }
+    antonyms = {
+        "happy": "sad",
+        "angry": "calm",
+    }
+
+    expected = [
+        ["happy", "joyful", "sad"],
+        ["sad", "unhappy", "None"],
+        ["angry", "irate", "calm"],
+    ]
+
+    actual = left_join(synonyms, antonyms)
+
+    assert sorted(actual) == sorted(expected)
