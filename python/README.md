@@ -21,6 +21,7 @@
 1. Code Challenge 18: [Trees: K-ary Fizz Buzz](docs/tree_fizz_buzz/README.md)
 1. Code Challenge 30: [Hashtable](docs/hashtable/README.md)
 1. Code Challenge 31: [Hashtable Repeated Word](docs/hashtable_repeated_word/README.md)
+1. Code Challenge 32: [Tree Intersection](docs/tree_intersection/README.md)
 
 
 ## Language: `Python`

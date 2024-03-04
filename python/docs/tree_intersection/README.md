@@ -1,31 +1,23 @@
 # Tree Max
 
-Write the following method for the Binary Tree class
+Write a function called tree_intersection that takes two binary trees as parameters.
 
-- find maximum value
-
-  - Arguments: none
-  - Returns: number
-  - Find the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
+- Using your Hashmap implementation as a part of your algorithm, return a set of values found in both trees.
 
 ## Whiteboard Process
 
   <!-- Embedded whiteboard image -->
 
-![Whiteboard Image](whiteboard16.png)
+![Whiteboard Image](whiteboard32.png)
 
 ## Approach & Efficiency
 
 1. Write out problem statement
 2. drew it out first because I didn't get it
-3. looked at binary tree code for help
-4. create find max function
-5. use in order to return list values and loop through them for comparison
-
-6. The Big O time is O(n) where n is number of nodes in tree and iterates over all nodes once. Space: O(n) because it stores all nodes using in order traversal
+3. asked gpt for code first and worked backwards
+4. The Big O time is O(n) where n is number of nodes in each tree. Space: O(n) because it depends on how many common values.
 
 ## Solution
 
-![Solution Image](solution16.png)
+[Solution](../../code_challenges/tree_intersection.py)
 
-[Link to code](https://replit.com/@XinDeng/code-challenges-401)
