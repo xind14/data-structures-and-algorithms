@@ -30,4 +30,3 @@ jobs:
       run: |
         cd java/datastructures
         ./gradlew clean test --info
-
