@@ -5,7 +5,7 @@
 1. Code Challenge 1: [Array Reverse](docs/array-reverse/README.md)
 1. Code Challenge 2: [Array Insert Shift](docs/array-insert-shift/README.md)
 1. Code Challenge 3: [Array Binary Search](docs/array-binary-search/README.md)
-1. Code Challenge 4: [Matrix](docs/matrix-optional-mock/README.md)
+1. Code Challenge 4: [Mock Inyerview Matrix](docs/matrix-optional-mock/README.md)
 1. Code Challenge 5: [Linked List](docs/linked-list/README.md)
 1. Code Challenge 6: [Linked List insertions](docs/linked_list_insertions/README.md)
 1. Code Challenge 7: [Linked List Kth](docs/linked_list_kth/README.md)
@@ -19,13 +19,15 @@
 1. Code Challenge 16: [Trees: Tree Max](docs/tree_max/README.md)
 1. Code Challenge 17: [Trees: Tree Breadth First](docs/tree_breadth_first/README.md)
 1. Code Challenge 18: [Trees: K-ary Fizz Buzz](docs/tree_fizz_buzz/README.md)
+1. Code Challenge 29: [Mock Interview Linked List Reverse](docs/linked-list-reverse/README.md)
 1. Code Challenge 30: [Hashtable](docs/hashtable/README.md)
 1. Code Challenge 31: [Hashtable Repeated Word](docs/hashtable_repeated_word/README.md)
 1. Code Challenge 32: [Tree Intersection](docs/tree_intersection/README.md)
 1. Code Challenge 33: [Hashtable Left Join](docs/hashtable_left_join/README.md)
 1. Code Challenge 34: [Hashtable Most Common Word](docs/hashtable_most_common_mock/README.md)
 1. Code Challenge 35: [Graph](docs/graph/README.md)
-1. Code Challenge 65: [Binary Tree Sum](docs/binary-tree-sum/README.md)
+1. Code Challenge/Lab 35: [Mock Interview Linked List Remove Dups](docs/linked-list-remove-dups-mock/README.md)
+1. Code Challenge 36: [Binary Tree Sum](docs/binary-tree-sum/README.md)
 
 
 ## Language: `Python`

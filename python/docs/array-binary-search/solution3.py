@@ -9,7 +9,7 @@ def binary_search(arr, key):
           left = mid + 1
       else:
           right = mid - 1
-  return -
+  return -1
 
 
 # arr = [1, 2, 3, 4, 5]
